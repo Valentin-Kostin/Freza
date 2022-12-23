@@ -5,6 +5,7 @@
 	     <title>Расчет скорости подачи</title>
 	</head>
 	<body>
+	<a href=index.php>На главную</a>
 	    <h1>Расчет скорости подачи</h1>
         <form action="formula4.php" method="POST">
             <p>Диаметр фрезы:
