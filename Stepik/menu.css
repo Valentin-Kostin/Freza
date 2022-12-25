@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+}
+
+.header{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Header_Lesson */
+
+
+position: relative;
+width: 1440px;
+height: 100px;
+
+background: #2390DC;
+box-shadow: 0px 4px 7px rgba(129, 129, 129, 0.25);
