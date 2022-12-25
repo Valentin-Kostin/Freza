@@ -60,7 +60,7 @@ if ($enter_site)
 </head>
 
 <body>
-
+    <a href="../index.php">На главную</a>
     <h1>Вход на сайт</h1>
 	<form action="" method="post">
 	

@@ -14,6 +14,7 @@
 		<a href="2convec/convertor.php">Конвертор</a>
 		<a href="3foto">Фото3</a>
 		<a href="5">Фото5</a>
+		<a href="autor/login.php">Авторизация</a>
         <table>
 <?php
     $n= $_POST['numb'];
