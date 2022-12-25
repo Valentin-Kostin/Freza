@@ -15,6 +15,8 @@
 		<a href="3foto">Фото3</a>
 		<a href="5">Фото5</a>
 		<a href="autor/login.php">Авторизация</a>
+		<a href="site">Логирование</a>
+		<a href="sort">Сорт</a>
         <table>
 <?php
     $n= $_POST['numb'];

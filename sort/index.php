@@ -29,6 +29,7 @@ $page_id = $_GET ['page_id'];
 	    <title>Сайт-визитка</title>
 	</head>
 	<body>
+		<a href="../index.php">На главную</a>
 	    <!--Меню: начало -->
 		<?php
 		    foreach ($menu as $key =>$value)

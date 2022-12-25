@@ -7,15 +7,6 @@
     <body>
         <a href="../index.php">На главную</a>
         <h1>Преобразование из дюймов в миллиметры</h1>
-		<?php 
-            $ins = 1/8;
-			$cents = $ins * 25.4;
-            $ins2 = 27;
-			$cents2 = $ins2 * 25.4  			
-			?>
-        <p><?php echo $ins ?> дюймов = <?php echo $cents ?> мм.</p>
-		<p><?php echo $ins2 ?> дюймов = <?php echo $cents2 ?> мм.</p>
-        <h1>Преобразование из дюймов в миллиметры</h1>
 		    <?php
 		    require_once 'libraly.php';
             $aIns = [20, 24, 27, 32, 45, 19, 80];

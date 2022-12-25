@@ -8,13 +8,14 @@ fclose($f);
 $lines = file ('visits.txt');
 ?>
 
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<!DOCTYPE html>
 <html>
 <head>
     <meta http-equiv="content-type" content="text/html; charset=windows-1251">
 	<title>Наш сайт</title>
 </head>
 <body>
+	<a href="../index.php">На главную</a>
     <h1>Это главная страница сайта</h1>
 	Мы <a href="a.php">следим</a> за её посещаемостью!
 	<br/><br/>

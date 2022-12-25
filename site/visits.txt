@@ -61,3 +61,27 @@ http://localhost/site/a.php
 2022-08-18 13:05:22
 ::1
 http://localhost/site/a.php
+2022-12-25 13:22:49
+::1
+http://localhost/freza/index.php
+2022-12-25 13:23:09
+::1
+http://localhost/freza/site/a.php
+2022-12-25 13:23:12
+::1
+http://localhost/freza/site/a.php
+2022-12-25 13:23:20
+::1
+http://localhost/freza/site/a.php
+2022-12-25 13:24:32
+::1
+http://localhost/freza/site/a.php
+2022-12-25 13:24:34
+::1
+http://localhost/freza/site/a.php
+2022-12-25 13:24:45
+::1
+http://localhost/freza/site/a.php
+2022-12-25 13:24:49
+::1
+http://localhost/freza/index.php
