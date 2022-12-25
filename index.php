@@ -12,7 +12,8 @@
 		<a href="formula4.php">Формула2</a> 
 		<a href="1lesson/index.php">урок 1</a>
 		<a href="2convec/convertor.php">Конвертор</a>
-		<a href="3foto">Фотогаллерея3</a>
+		<a href="3foto">Фото3</a>
+		<a href="5">Фото5</a>
         <table>
 <?php
     $n= $_POST['numb'];
