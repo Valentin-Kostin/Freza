@@ -8,10 +8,11 @@
 		<form action="index.php" method="POST">
 		<input type="number" name="numb" size="10">
 		<input type="submit" value="Введите размер">
-		<a href=formula3.php>Формула1</a> 
-		<a href=formula4.php>Формула2</a> 
-		<a href=1lesson/index.php>урок 1</a>
+		<a href="formula3.php">Формула1</a> 
+		<a href="formula4.php">Формула2</a> 
+		<a href="1lesson/index.php">урок 1</a>
 		<a href="2convec/convertor.php">Конвертор</a>
+		<a href="3foto">Фотогаллерея3</a>
         <table>
 <?php
     $n= $_POST['numb'];

@@ -12,10 +12,10 @@
     <body>
         <h1>Фотогалерея</h1>
 		<h2><?php echo $item['desc']?></h2>
-        <p><a href="/3/index.php">На главную</a></p>
+        <p><a href="index.php">На главную</a></p>
         <section id="gallery-item">
-		    <img src="/3/images/<?php echo $item['src']?>">
+		    <img src="images/<?php echo $item['src']?>">
         </section>
-        <p><a href="/3/index.php">На главную</a></p>
+        <p><a href="index.php">На главную</a></p>
     </body>
 </html>
