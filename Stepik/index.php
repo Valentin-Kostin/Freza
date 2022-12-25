@@ -5,17 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <!-- Подключите стили -->
-    <!-- Подключите шрифт -->
+    <link rel="stylesheet" href="menu.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inconsolata&family=Montserrat:wght@300&display=swap" rel="stylesheet"/>
 </head>
 <body>
     <header class="header">
         <nav class="menu">
-            <!-- Здесь должен быть ваш код -->
+            <ul class="menu__ul">
+            <li class="menu__li">
+            <a href="#" class="menu__link">Products</a>
+            </li>
+            <li class="menu__li"><a href="#" class="menu__link">About</a></li>
+            <li class="menu__li"><a href="#" class="menu__link">Blog</a></li>
+            <li class="menu__li">
+            <a href="#" class="menu__link">Contacts</a>
+            </li>
+        </ul>
+        <a href="index.html" class="menu__logo">Mycompany</a>
+        <a href="#" class="menu__signup">Sign Up</a>
+        <a href="" class="btn menu__login">Login</a>
         </nav>
     </header>  
 </body>
 </html>
-
-
-
