@@ -181,6 +181,7 @@ body {
 .card__btn:hover{
     box-shadow: 1px -1px 2px gray;
 }
+
 .wrapper {
 	display: flex;
 	flex-direction: column;
