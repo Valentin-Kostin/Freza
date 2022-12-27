@@ -18,6 +18,7 @@
 		<a href="site">Логирование</a>
 		<a href="sort">Сорт</a><br/>
 		<a href="Stepik">Stepik</a>
+		<a href="Stepik">Stepik2</a>
         <table>
 <?php
     $n= $_POST['numb'];
