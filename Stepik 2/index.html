@@ -4,22 +4,68 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
 		<title>document</title>
     </head>
-  <body>
+  <br>
     JAVASCRIPT
+    <a href="../index.php">На главную</a>
     <button onclick="myFunction(`admin`)">admin</button>
     <button onclick="myFunction(`support`)">support</button>
-    <button onclick="myFunction(`user`)">user</button>
-    <button onclick="myFunction2(`750`)">Функция2</button>
-    <button onclick="myFunction3()">Функция3</button>
-    <a href="index2.html">stepik2</a>
+    <button onclick="myFunction(`user`)">user</button></br>
+    <button onclick="myFunction2(`750`)">Функция2</button></br>
+    <button onclick="myFunction3()">Функция3</button></br>
+    
     <input class="name" type="text">
     <button class="btn">Sum</button>
     <p class="result"></p>	
     <input class="name2" type="text">
     <button class="btn2">Sum2</button>
     <p class="result2"></p>		  	    
-		<script src="stepik.js"></script>
+		
+    <div class="card">
+      <p>Выберите товары:</p>
+      <div>
+          <input type="checkbox" id="Choice1" name="food" value="120">
+          <label for="Choice1">Пирог с яблоком - 120р</label>
+      </div>
+      <div>
+          <input type="checkbox" id="Choice2" name="food" value="80">
+          <label for="Choice2">Шоколадный кекс - 80р</label>
+      </div>
+      <div>
+          <input type="checkbox" id="Choice3" name="food" value="180">
+          <label for="Choice3">Чизкейк - 180р</label>
+      </div>
+      <button class="btn">Выбрать</button>
+      <p>Общая стоимость: <span class="result"></span></p>
+      
+  </div>    
+
+  <div class="card">
+      <p>Выберите товары:</p>
+      <div>
+      <input type="checkbox" id="sweetsChoice1" name="sweets" value="120">
+      <label for="sweetsChoice1">Пирог с яблоком - 120р</label>
+      </div>
+      <div>
+      <input type="checkbox" id="sweetsChoice2" name="sweets" value="80">
+      <label for="sweetsChoice2">Шоколадный кекс - 80р</label>
+      </div>
+      <div>
+      <input type="checkbox" id="sweetsChoice3" name="sweets" value="180">
+      <label for="sweetsChoice3">Чизкейк - 180р</label>
+      </div>
+      <button class="btn">Выбрать</button>
+      <p>Общая стоимость: <span class="result">0 руб</span></p>
+      
+  </div>
+  <div class="card">
+    <p><span>Имя:</span><input class="name" type="text" name="FirstName"></p>
+    <p><span>Фамилия:</span><input class="suname" type="text" name="SecondName"></p>
+    <button class="btn">Отправить</button>
+    <p>Ответ: <span class="result"></span></p>
+    <script src="main.js"></script>
+    </div>
 	</body>
 </html>
