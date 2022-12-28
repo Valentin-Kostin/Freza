@@ -104,3 +104,60 @@ btnElement2.addEventListener("click", function two (){ //по клику на к
         resultElement2.textContent = inputElement2.value; //записываем в result значение из input
     }
 });
+resultElement = document.querySelector(".result"); //получаем элемент с классом result
+radioButtons = document.querySelectorAll('[name="contact"]'); //получаем список всех checkbox элементов
+let selectedContactValues = []; //массив для хранения выбранных checkbox
+
+
+radioButtons.forEach(element => {                   //для каждого элемента из списка элементов checkbox
+    element.addEventListener("change", function(){  //при изменении элемента
+        if(element.checked){                        //если checkbox-кнопка выбрана
+            selectedContactValues.push(element.value);   //добавляем значение в массив выбранных
+        } else {                                         //иначе удаляем из массива выбранных
+            selectedContactValues.splice(selectedContactValues.indexOf(element.value),1)
+        }
+
+        if (selectedContactValues.length != 0) { //если массив не пустой (т.е. длина массива  не равна 0)
+            resultElement.textContent = selectedContactValues.join(", "); //записываем значения в resultElement
+        } else {
+            resultElement.textContent = "ничего не выбрано." //иначе записываем в resultElement, что ничего не выбрано
+        }
+    });
+});
+
+const contactChecked = { // объект
+    email: false, // ключ "email" - значение false
+    phone: false, // ключ "phone" - значение false
+    mail: false,  // ключ "mail" - значение false
+};
+const btn = document.querySelector("#btn");  //элемент btn
+const checkboxElements = document.querySelectorAll('[name="contact"]'); //элементы checkbox
+
+
+btn.addEventListener("click", function(){ //по клику на кнопку
+    checkboxElements.forEach(element => {    //для каждого елемента checkbox
+        contactChecked[element.value] = element.checked;  
+//в объект contactChecked по ключу element.value записываем значение checked
+    })
+    console.log(contactChecked);                    //выведем в консоль объект
+});
+
+const btn = document.querySelector("#btn");  //элемент btn
+const radioElements = document.querySelectorAll('[name="goods"]'); //элементы radio
+
+const choiceGood = { //объект для характеристик выбранного товара
+    value: "",
+    price: 0,
+    size: "",
+};
+
+btn.addEventListener("click", function() { //по клику на кнопку
+    radioElements.forEach(element => {     //проверяем каждый элемент radio
+        if (element.checked) {             //если элемент выбран
+            choiceGood.value = element.value;                   //записываем значение value
+            choiceGood.price = parseInt(element.dataset.price); //записываем значение из dataset price (преобразуя в целое число)
+            choiceGood.size = element.dataset.size;             //записываем значение из dataset size
+        }
+    })
+    console.log(choiceGood);  //выводим в консоль объект
+});

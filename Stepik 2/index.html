@@ -65,7 +65,60 @@
     <p><span>Фамилия:</span><input class="suname" type="text" name="SecondName"></p>
     <button class="btn">Отправить</button>
     <p>Ответ: <span class="result"></span></p>
-    <script src="main.js"></script>
+    
     </div>
+    <div class="card">
+    <p>Выберите способ связи:</p>
+    <div>
+        <input type="checkbox" id="contactChoice1" name="contact" value="email">
+        <label for="contactChoice1">По email</label>
+    </div>
+    <div>
+        <input type="checkbox" id="contactChoice2" name="contact" value="phone">
+        <label for="contactChoice2">По телефону</label>
+    </div>
+    <div>
+        <input type="checkbox" id="contactChoice3" name="contact" value="mail">
+        <label for="contactChoice3">По почте</label>
+    </div>
+    <button class="btn">Отправить</button>
+    <p>Выбранный способ: <span class="result"></span></p>
+  </div>
+
+  <div class="card">
+    <p>Выберите способ связи:</p>
+    <div>
+        <input type="checkbox" id="contactChoice1" name="contact" value="email">
+        <label for="contactChoice1">По email</label>
+    </div>
+    <div>
+        <input type="checkbox" id="contactChoice2" name="contact" value="phone">
+        <label for="contactChoice2">По телефону</label>
+    </div>
+    <div>
+        <input type="checkbox" id="contactChoice3" name="contact" value="mail">
+        <label for="contactChoice3">По почте</label>
+    </div>
+    <button id="btn">Отправить</button>
+    <p>Выбранный способ: <span class="result"></span></p>
+
+    <div class="card">
+      <p>Выберите напиток :</p>
+    <div>
+        <input type="radio" id="goodsChoice1" name="goods" value="big" data-price="180" data-size="0.4л">
+        <label for="goodsChoice1">Кофе Большой</label>
+    </div>
+    <div>
+        <input type="radio" id="goodsChoice2" name="goods" value="middle" data-price="140" data-size="0.3л">
+        <label for="goodsChoice2">Кофе Средний</label>
+    </div>
+    <div>
+        <input type="radio" id="goodsChoice3" name="goods" value="small" data-price="100" data-size="0.2л">
+        <label for="goodsChoice3">Кофе Маленький</label>
+    </div>
+    <button id="btn">Данные о покупке</button>
+    </div>
+  </div>
+  <script src="main.js"></script>
 	</body>
 </html>
