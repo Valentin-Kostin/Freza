@@ -6,6 +6,6 @@ let FirstNameElement=document.querySelector('[name=FirstName]')
 let SecondNameElement=document.querySelector('[name=SecondName]')
 
 btnElement.addEventListener("click", function(){
-    resultElement.textContent = `Здравствуйте, ${FirstNameElement} ${SecondNameElement}!`
+    resultElement.textContent = `Здравствуйте, ${FirstNameElement.value} ${SecondNameElement.value}!`
 })
 
