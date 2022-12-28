@@ -6,119 +6,115 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
 		<title>document</title>
-    </head>
-  <br>
-    JAVASCRIPT
-    <a href="../index.php">На главную</a>
-    <button onclick="myFunction(`admin`)">admin</button>
-    <button onclick="myFunction(`support`)">support</button>
-    <button onclick="myFunction(`user`)">user</button></br>
-    <button onclick="myFunction2(`750`)">Функция2</button></br>
-    <button onclick="myFunction3()">Функция3</button></br>
-    
-    <input class="name" type="text">
-    <button class="btn">Sum</button>
-    <p class="result"></p>	
-    <input class="name2" type="text">
-    <button class="btn2">Sum2</button>
-    <p class="result2"></p>		  	    
-		
-    <div class="card">
-      <p>Выберите товары:</p>
-      <div>
-          <input type="checkbox" id="Choice1" name="food" value="120">
-          <label for="Choice1">Пирог с яблоком - 120р</label>
-      </div>
-      <div>
-          <input type="checkbox" id="Choice2" name="food" value="80">
-          <label for="Choice2">Шоколадный кекс - 80р</label>
-      </div>
-      <div>
-          <input type="checkbox" id="Choice3" name="food" value="180">
-          <label for="Choice3">Чизкейк - 180р</label>
-      </div>
-      <button class="btn">Выбрать</button>
-      <p>Общая стоимость: <span class="result"></span></p>
-      
-  </div>    
-
-  <div class="card">
-      <p>Выберите товары:</p>
-      <div>
-      <input type="checkbox" id="sweetsChoice1" name="sweets" value="120">
-      <label for="sweetsChoice1">Пирог с яблоком - 120р</label>
-      </div>
-      <div>
-      <input type="checkbox" id="sweetsChoice2" name="sweets" value="80">
-      <label for="sweetsChoice2">Шоколадный кекс - 80р</label>
-      </div>
-      <div>
-      <input type="checkbox" id="sweetsChoice3" name="sweets" value="180">
-      <label for="sweetsChoice3">Чизкейк - 180р</label>
-      </div>
-      <button class="btn">Выбрать</button>
-      <p>Общая стоимость: <span class="result">0 руб</span></p>
-      
-  </div>
-  <div class="card">
-    <p><span>Имя:</span><input class="name" type="text" name="FirstName"></p>
-    <p><span>Фамилия:</span><input class="suname" type="text" name="SecondName"></p>
-    <button class="btn">Отправить</button>
-    <p>Ответ: <span class="result"></span></p>
-    
+</head>
+<body>
+    <div class="container">
+            <div class="head2">
+                JAVASCRIPT
+                <a href="../index.php">На главную</a>
+                <button onclick="myFunction(`admin`)">admin</button>
+                <button onclick="myFunction(`support`)">support</button>
+                <button onclick="myFunction(`user`)">user</button></br>
+                <button onclick="myFunction2(`750`)">Функция2</button></br>
+                <button onclick="myFunction3()">Функция3</button></br>    
+                <input class="name" type="text">
+                <button class="btn">Sum</button>
+                <p class="result"></p>	
+                <input class="name2" type="text">
+                <button class="btn2">Sum2</button>
+                <p class="result2"></p>		  	    
+            </div>
+        <div class="card">
+            <p>Выберите товары:</p>
+            <div>
+                <input type="checkbox" id="Choice1" name="food" value="120">
+                <label for="Choice1">Пирог с яблоком - 120р</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Choice2" name="food" value="80">
+                <label for="Choice2">Шоколадный кекс - 80р</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Choice3" name="food" value="180">
+                <label for="Choice3">Чизкейк - 180р</label>
+            </div>
+            <button class="btn">Выбрать</button>
+            <p>Общая стоимость: <span class="result"></span></p>      
+        </div>    
+        <div class="card">
+            <p>Выберите товары:</p>
+            <div>
+                <input type="checkbox" id="sweetsChoice1" name="sweets" value="120">
+                <label for="sweetsChoice1">Пирог с яблоком - 120р</label>
+            </div>
+            <div>
+                <input type="checkbox" id="sweetsChoice2" name="sweets" value="80">
+                <label for="sweetsChoice2">Шоколадный кекс - 80р</label>
+            </div>
+            <div>
+                <input type="checkbox" id="sweetsChoice3" name="sweets" value="180">
+                <label for="sweetsChoice3">Чизкейк - 180р</label>
+            </div>
+            <button class="btn">Выбрать</button>
+            <p>Общая стоимость: <span class="result">0 руб</span></p>
+        </div>
+        <div class="card">
+            <p><span>Имя:</span><input class="name" type="text" name="FirstName"></p>
+            <p><span>Фамилия:</span><input class="suname" type="text" name="SecondName"></p>
+            <button class="btn">Отправить</button>
+            <p>Ответ: <span class="result"></span></p>    
+        </div>
+        <div class="card">
+            <p>Выберите способ связи:</p>
+            <div>
+                <input type="checkbox" id="contactChoice1" name="contact" value="email">
+                <label for="contactChoice1">По email</label>
+            </div>
+            <div>
+                <input type="checkbox" id="contactChoice2" name="contact" value="phone">
+                <label for="contactChoice2">По телефону</label>
+            </div>
+            <div>
+                <input type="checkbox" id="contactChoice3" name="contact" value="mail">
+                <label for="contactChoice3">По почте</label>
+            </div>
+            <button class="btn">Отправить</button>
+            <p>Выбранный способ: <span class="result"></span></p>
+        </div>
+        <div class="card">
+            <p>Выберите способ связи:</p>
+            <div>
+                <input type="checkbox" id="contactChoice1" name="contact" value="email">
+                <label for="contactChoice1">По email</label>
+            </div>
+            <div>
+                <input type="checkbox" id="contactChoice2" name="contact" value="phone">
+                <label for="contactChoice2">По телефону</label>
+            </div>
+            <div>
+                <input type="checkbox" id="contactChoice3" name="contact" value="mail">
+                <label for="contactChoice3">По почте</label>
+            </div>
+            <button id="btn">Отправить</button>
+            <p>Выбранный способ: <span class="result"></span></p>
+        </div>
+        <div class="card">
+            <p>Выберите напиток :</p>
+            <div>
+                <input type="radio" id="goodsChoice1" name="goods" value="big" data-price="180" data-size="0.4л">
+                <label for="goodsChoice1">Кофе Большой</label>
+            </div>
+            <div>
+                <input type="radio" id="goodsChoice2" name="goods" value="middle" data-price="140" data-size="0.3л">
+                <label for="goodsChoice2">Кофе Средний</label>
+            </div>
+            <div>
+                <input type="radio" id="goodsChoice3" name="goods" value="small" data-price="100" data-size="0.2л">
+                <label for="goodsChoice3">Кофе Маленький</label>
+            </div>
+            <button id="btn">Данные о покупке</button>
+        </div>    
+    <script src="main.js"></script>
     </div>
-    <div class="card">
-    <p>Выберите способ связи:</p>
-    <div>
-        <input type="checkbox" id="contactChoice1" name="contact" value="email">
-        <label for="contactChoice1">По email</label>
-    </div>
-    <div>
-        <input type="checkbox" id="contactChoice2" name="contact" value="phone">
-        <label for="contactChoice2">По телефону</label>
-    </div>
-    <div>
-        <input type="checkbox" id="contactChoice3" name="contact" value="mail">
-        <label for="contactChoice3">По почте</label>
-    </div>
-    <button class="btn">Отправить</button>
-    <p>Выбранный способ: <span class="result"></span></p>
-  </div>
-
-  <div class="card">
-    <p>Выберите способ связи:</p>
-    <div>
-        <input type="checkbox" id="contactChoice1" name="contact" value="email">
-        <label for="contactChoice1">По email</label>
-    </div>
-    <div>
-        <input type="checkbox" id="contactChoice2" name="contact" value="phone">
-        <label for="contactChoice2">По телефону</label>
-    </div>
-    <div>
-        <input type="checkbox" id="contactChoice3" name="contact" value="mail">
-        <label for="contactChoice3">По почте</label>
-    </div>
-    <button id="btn">Отправить</button>
-    <p>Выбранный способ: <span class="result"></span></p>
-
-    <div class="card">
-      <p>Выберите напиток :</p>
-    <div>
-        <input type="radio" id="goodsChoice1" name="goods" value="big" data-price="180" data-size="0.4л">
-        <label for="goodsChoice1">Кофе Большой</label>
-    </div>
-    <div>
-        <input type="radio" id="goodsChoice2" name="goods" value="middle" data-price="140" data-size="0.3л">
-        <label for="goodsChoice2">Кофе Средний</label>
-    </div>
-    <div>
-        <input type="radio" id="goodsChoice3" name="goods" value="small" data-price="100" data-size="0.2л">
-        <label for="goodsChoice3">Кофе Маленький</label>
-    </div>
-    <button id="btn">Данные о покупке</button>
-    </div>
-  </div>
-  <script src="main.js"></script>
-	</body>
+</body>
 </html>

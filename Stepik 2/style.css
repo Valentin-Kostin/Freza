@@ -29,7 +29,7 @@ body{
 .container{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-wrap: wrap;
     background-color: #1D1D1D;
     border-width: 2px;
     border-image: linear-gradient(#088B8B, #23088B) 1;
@@ -73,7 +73,7 @@ body{
 }
 .card {
 	display: flex;
-	flex-direction: column;
+	flex-flow: row wrap;
 	width: 200px;
 	height: 322px;
 	margin: 68px auto;

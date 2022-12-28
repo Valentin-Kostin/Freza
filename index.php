@@ -17,7 +17,7 @@
 		<a href="autor/login.php">Авторизация</a>
 		<a href="site">Логирование</a>
 		<a href="sort">Сорт</a><br/>
-		<a href="Stepik">Stepik</a>
+		<a href="Site_Doma">Doma</a>
 		<a href="Stepik 2">Stepik2</a>
 		<a href="Stepik 2/stepik.js">stepik.js</a>
         <table>
