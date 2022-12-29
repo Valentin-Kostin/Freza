@@ -5,18 +5,20 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url(Site_Doma\img\t87LeJ07.jpg);
-    /*background-attachment: local;*/
+    background-image: url(img\001.jpg);
+    background-size: cover;
 }
 
 /* Header */
 
 .header{
     width: 99%;
-    background-color:#FFFFFF;
+    /*background-color:#FFFFFF;*/
     box-shadow: 10px 14px 17px rgba(0, 0, 0, 0.25);  
     border: 5px solid #523707;
     border-radius: 10px;  
+    background-image: url(img\001.jpg);
+    background-size: cover;
 }
 
 /* Navigation */
@@ -24,7 +26,7 @@ body {
 .menu {
     width: 100%;
     height: 80px;
-    background: #FFFFFF;
+    /*background: #FFFFFF;*/
     display: flex;
     align-items: center;
 }
@@ -70,15 +72,6 @@ body {
     color: #81570b;
 }
 
-
-
-/*body{
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
-	width: 1440px;
-	height: 1024px;
-	background: #15638F;
-}*/
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -86,8 +79,9 @@ body {
     align-items: center;
     width: 100%;
     height: 100vh;
-    padding: 20px;
-    
+    padding: 20px; 
+    background-image: url(img\001.jpg);
+    background-size: cover;
 }
 .card {
 	display: flex;	
@@ -95,7 +89,7 @@ body {
 	width: 200px;
 	height: 322px;
 	margin: 68px auto;
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
 	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
 }
@@ -104,7 +98,7 @@ body {
 	justify-content: center;
 	width: 200px;
 	height: 142.36px;
-	background: url(https://source.unsplash.com/T7K4aEPoGGk/1600x900);
+	background: url(img\001.jpg);
 	border-radius: 10px 10px 0px 0px;
 	cursor: pointer;
 
@@ -137,7 +131,7 @@ body {
 	width: 98px;
 	height: 27px;
 	border: none;
-	background: #2797B2;
+	background: #523707;
 	border-radius: 50px;
 	margin: 0 0 25px 16px;
 	color: #FFFFFF;
@@ -227,7 +221,7 @@ padding: 36px;
 }
 
 a:hover {
-	  color: #127b25; /* Цвет обычной ссылки */
+	color: #127b25; /* Цвет обычной ссылки */
     position: relative;
     cursor: pointer;
     text-decoration: none; /* Убираем подчеркивание */
