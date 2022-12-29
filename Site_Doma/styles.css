@@ -33,7 +33,7 @@ body {
 
 .menu__ul {
     width: 100%;
-    color: #000000;
+    color: #81570b;
     display: flex;
     justify-content: flex-start;
     list-style-type: none;
@@ -42,7 +42,7 @@ body {
 }
 
 .menu__li {
-    color: #000000;
+    color: #81570b;
 }
 
 .menu__link {
@@ -67,42 +67,10 @@ body {
     text-transform: uppercase;
     display: flex;
     text-decoration: none;
-    color: #05a88d;
+    color: #81570b;
 }
 
-/* Navigation on the right */
 
-.btn__ul {
-    width: 100%;
-    list-style-type: none;
-    margin: 0 20px;
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-}
-
-.menu__signup {
-    text-decoration: none;
-    color: #05a88d;
-    font-size: 16px;
-
-    box-sizing: border-box;
-    border: 2px solid #05a88d;
-    border-radius: 3px;
-    padding: 10px 20px;
-    background: none;
-}
-
-.menu__login {
-    text-decoration: none;
-    color: #05a88d;
-    font-size: 16px;
-    padding: 0 40px;
-}
-
-.menu__link:hover {
-    color: #05a88d;
-}
 
 /*body{
     font-family: 'Open Sans', sans-serif;
@@ -271,7 +239,7 @@ a:after {
     right: 0;
     bottom: -3px;
     width: 0;
-    height: 1px; /* Высота линии */
+    height: 3px; /* Высота линии */
     background-color: #F1E67D; /* Цвет подчеркивания при исчезании линии*/
     transition: width 0.5s; /* Время эффекта */
 }
@@ -282,8 +250,8 @@ a:hover:after {
     display: block;
     position: absolute;
     left: 0;
-    bottom: -3px;
-    height: 1px; /* Высота линии */
+    bottom: -1px;
+    height: 3px; /* Высота линии */
     background-color: #F1E67D; /* Цвет подчеркивания при появлении линии*/
     transition: width 0.5s;  /* Время эффекта */
 }
