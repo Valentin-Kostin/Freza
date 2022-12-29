@@ -1,34 +1,33 @@
 * {
     padding: 0;
-    margin: 100;
+    margin: 0;
 }
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url(img\001.jpg);
-    background-size: cover;
+    background-image: url(../Site_Doma/img/0003.jpg); 
+    background-repeat: repeat;
+    background-size: 33%;
+    padding: 2%;
 }
 
 /* Header */
 
 .header{
-    width: 99%;
-    /*background-color:#FFFFFF;*/
-    box-shadow: 10px 14px 17px rgba(0, 0, 0, 0.25);  
+    width: 100%;
+    background-color:#ffffffd4;
+    box-shadow: 10px 13px 10px rgba(0, 0, 0, 0.5);  
     border: 5px solid #523707;
-    border-radius: 10px;  
-    background-image: url(img\001.jpg);
-    background-size: cover;
+    border-radius: 10px;      
 }
 
 /* Navigation */
 
 .menu {
-    width: 100%;
-    height: 80px;
-    /*background: #FFFFFF;*/
+    /*width: 100%;
+    height: 100%; */   
     display: flex;
-    align-items: center;
+    /*align-items: center;*/
 }
 
 /* Navigation on the left */
@@ -39,19 +38,19 @@ body {
     display: flex;
     justify-content: flex-start;
     list-style-type: none;
-    font-size: 30px;
-    padding: 40px;
+    font-size: 24px;
+    padding: 30px;
 }
-
+/*
 .menu__li {
     color: #000000;
 }
-
+*/
 .menu__link {
     text-decoration: none;
-    margin: 0 20px;
+    margin: 10px;
     color: #81570b;
-    font-weight: 300;
+    /*font-weight: 300;*/
 }
 
 /* Navigation on the center */
@@ -65,7 +64,7 @@ body {
 }
 
 .menu__logo {
-    font-size: 50px;
+    font-size: 200%;
     text-transform: uppercase;
     display: flex;
     text-decoration: none;
@@ -230,9 +229,9 @@ a:after {
 	content: "";
     display: block;
     position: absolute;
-    right: 0;
+    right: 10;
     bottom: -3px;
-    width: 0;
+    width: 0%;
     height: 3px; /* Высота линии */
     background-color: #F1E67D; /* Цвет подчеркивания при исчезании линии*/
     transition: width 0.5s; /* Время эффекта */
@@ -243,8 +242,8 @@ a:hover:after {
     width: 100%;
     display: block;
     position: absolute;
-    left: 0;
-    bottom: -1px;
+    left: 10;
+    bottom: -3px;
     height: 3px; /* Высота линии */
     background-color: #F1E67D; /* Цвет подчеркивания при появлении линии*/
     transition: width 0.5s;  /* Время эффекта */

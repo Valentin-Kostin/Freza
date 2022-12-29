@@ -10,7 +10,7 @@
     margin-left: 10px;
 }
 /* body{
-    display: flex;
+    
     flex-direction: column;
     
 } */
@@ -19,16 +19,21 @@
 } */
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url(img\001.jpg), url(Site_Doma\img\002.jpg), url(Site_Doma\img\003.jpg),  url(Site_Doma\img\004.jpg), url(Site_Doma\img\005.jpg), url(Site_Doma\img\006.jpg), url(Site_Doma\img\007.jpg); 
+    background-image: url(../Site_Doma/img/001.jpg), url(../Site_Doma/img/003.jpg), url(../Site_Doma/img/005.jpg), url(../Site_Doma/img/006.jpg); 
     background-repeat: repeat-x;
-    background-position: 0 250px, 0 150px, 0 98px; 
+    background-position: 0 25%, 0 50%, 0 75%, 0 100%;
+    background-size: 30%;
     color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .input{
     background-color: #141414;
     border: 3px #e45674;
 }
-.container{
+/*.container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -40,7 +45,7 @@ body{
     width: 300px;
     height: 356px;
     padding: 40px 32px;
-}
+}*/
 .name__text{
     font-style: normal;
     font-weight: 500;
