@@ -1,13 +1,24 @@
 table 
 {
-	border-collapse: collapse;
-	border: 1px solid grey;
+	/*border-collapse: collapse;*/
+	border: 10px solid grey;
 	
 	
 }
 
 td
 {
-	height: 9px;
-	width: 7px;
+	height: 19px;
+	width: 17px;
+}
+
+body 
+{
+	background: rgb(83, 77, 77);
+    
+}
+
+a 
+{
+	font-size: 30px;
 }
