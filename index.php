@@ -1,7 +1,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-		<link href="style.css" rel="stylesheet" type="text/css">
+		<link href="style.css" rel="stylesheet">
         <title>pricol</title>		
     </head>
     <body>	    
