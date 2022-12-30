@@ -5,10 +5,14 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-image: url(../Site_Doma/img/0003.jpg); 
-    background-repeat: repeat;
-    background-size: 33%;
+    background-image: url(../Site_Doma/img/fone.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    min-width: 900px;
     padding: 2%;
+    display: flex;
+    flex-direction: column;
 }
 
 /* Header */
@@ -27,12 +31,13 @@ body {
     /*width: 100%;
     height: 100%; */   
     display: flex;
+    flex-wrap: nowrap;
     /*align-items: center;*/
 }
 
 /* Navigation on the left */
 
-.menu__ul {
+.menu__ve {
     width: 100%;
     color: #523707;
     display: flex;
@@ -41,11 +46,18 @@ body {
     font-size: 24px;
     padding: 30px;
 }
-/*
-.menu__li {
-    color: #000000;
+
+.menu__ni {
+    width: 100%;
+    color: #523707;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    list-style-type: none;
+    font-size: 24px;
+    padding: 30px;
 }
-*/
+
 .menu__link {
     text-decoration: none;
     margin: 10px;
@@ -59,8 +71,9 @@ body {
     width: 100%;
     display: flex;
     list-style-type: none;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
+    padding: 25px;
 }
 
 .menu__logo {
@@ -74,20 +87,16 @@ body {
 .container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
     align-items: center;
-    width: 100%;
-    height: 100vh;
-    padding: 20px; 
-    background-image: url(img\001.jpg);
-    background-size: cover;
+    padding: 20px;    
 }
 .card {
 	display: flex;	
     flex-flow: row wrap;
+    justify-content: space-between;
 	width: 200px;
 	height: 322px;
-	margin: 68px auto;
+	margin: 50px auto;
 	/*background: #FFFFFF;*/
 	box-shadow: 0px 0px 7px rgba(0, 0, 0, 0.3);
 	border-radius: 10px;
@@ -143,82 +152,12 @@ body {
 .card__btn:hover{
     box-shadow: 1px -1px 2px gray;
 }
-
-.wrapper {
-	display: flex;
-	flex-direction: column;
-	min-height: 100%;
-}
-.main {
-	flex: 1 0 auto;
-
-}
-.footer{
-    flex: 0 0 auto;
-    background: #05A88D;
+.wrapper{
     width: 100%;
-    height: 260px
-}
-.footer__top{
-display: flex;
-border: 1px solid #FFFFFF; 
-width: 100%;
-height: 174px;
-justify-content: space-between;
-
-}
-.footer__left{
-padding: 44px 40px;
-}
-.logo{
     display: flex;
-    font-weight: 700;
-    font-size: 28px;
-    color: #F1E67D;
-    text-decoration: none;
+    justify-content: center;
+    align-items: flex-end;
 }
-.text{
-    display: flex;
-    width: 437px;
-    padding-top: 22px;
-    padding-bottom: 28px;
-}
-.footer__right{
-    padding: 58px 40px;
-    justify-content: flex-end;
-    align-content: flex-end;
-
-}
-.contact{
-    display: flex;
-    font-weight: 700;
-    font-size: 14px;
-    color: #FFFFFF;
-    margin-bottom: 16px;
-    letter-spacing: -0.015em;
-    text-transform: uppercase;
-}
-.phone{
-    display: flex;
-    font-weight: 700;
-    font-size: 24px;
-    color: #F1E67D;
-    margin-bottom: 16px;
-    text-decoration: none;
-    letter-spacing: -0.015em;
-    text-transform: uppercase;
-    
-}
-.address{
-    display: flex;
-    font-weight: 300;
-    font-size: 12px;
-    color: #FFFFFF;
-}
-.footer__bottom{
-padding: 36px;
-}
-
 a:hover {
 	color: #127b25; /* Цвет обычной ссылки */
     position: relative;
@@ -230,7 +169,7 @@ a:after {
     display: block;
     position: absolute;
     right: 10;
-    bottom: -3px;
+    bottom: 0;
     width: 0%;
     height: 3px; /* Высота линии */
     background-color: #F1E67D; /* Цвет подчеркивания при исчезании линии*/
