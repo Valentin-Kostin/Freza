@@ -109,8 +109,8 @@ body {
 	border-radius: 10px;
     background-color:#ffffffd4;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
+    align-items: center;
+    
 }
 .card__image {
 	/*display: flex;
@@ -140,18 +140,16 @@ body {
     align-items: center;
 
 }
-.text2 {
-	/*display: flex;*/
-	/*width: 165px;
-	height: 63px;
-	font-weight: 300;*/
-	/*line-height: 14px;*/
-	margin: 16px;
-    /*width: 100%;*/
-    color: #221704;    
-    /*justify-self: center;*/
+.text2 {	
+    display: flex; 
+    /* line-height: 14px; */
+    margin: 16px;
+    /* width: 100%; */
+    color: #221704;
+    justify-self: center;
     font-size: 24px;
-    
+    align-self: center;
+    flex-direction: column;
 }
 
 .text3 {
