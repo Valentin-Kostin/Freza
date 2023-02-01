@@ -10,7 +10,11 @@ body {
     background-attachment: fixed;    
 }
 
-
+/*header {
+    position: fixed;
+    left: 0;
+    top: 0;
+}*/
 
 .menu {
     display: flex;
