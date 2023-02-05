@@ -26,7 +26,7 @@ body {
 
 .menu__ve {
     width: 60%;        
-    font-size: 24px;
+    font-size: 30px;
     padding: 20px;
     display: flex;    
     justify-content: space-around;
@@ -40,7 +40,7 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     list-style-type: none;
-    font-size: 20px;
+    font-size: 24px;
     padding: 20px;
 }
 
@@ -60,7 +60,7 @@ body {
     flex-direction: column;
 }
 .menu__logo {
-    font-size: 28px;
+    font-size: 34px;
     text-transform: uppercase;
     text-decoration: none;
     color: #d4b47d;
@@ -74,11 +74,10 @@ body {
     color: #d4b47d;
 }
 .logo__image {
-    height: 135px;
+    height: 120px;
+    padding: 30px;
 }
-.logo__image2 {
-    height: 135px;
-}
+
 .container {
     display: flex;
     flex-wrap: wrap;     
